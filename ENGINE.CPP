@@ -80,7 +80,7 @@ void CEngine::SetEyeRotation(float v, float w)
     sw = sin(pi / 180.0 * w);
 }
 
-void CEngine::CEngine()
+CEngine::CEngine()
 {
     randomize();
     Mode(1);
